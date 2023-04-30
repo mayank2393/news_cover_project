@@ -4,10 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Voice</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Merriweather",serif;
+        font-weight: normal;
+        /* color-scheme: dark; */
+
+    }
+    nav{
+        background-color:#134E5E;
+        padding: 10px;
+        height: 40px;
+    }
+    li{
+        display: inline-block;
+        color: white;
+        font-size: 17px;
+        padding: 10px;
+        margin: 0px 8px;
+    }
+    .left{
+        display: inline-block;
+        width: 960px;
+    }
+    .right{
+        display: inline-block;
+        width: 360px;
+    }
+    .srch{
+        display: inline-block;
+    }
+    .sign-up{
+        display: inline-block;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .srch input{
+        padding: 5px 10px;
+        border-radius: 36px;
+    }
+    .btn{
+        padding: 5px 10px;
+        /* border-radius: 36px;*/
+    }
+    nav{
+        box-shadow: 10px 6px 25px 11px rgb(70, 77, 70);
+    }
+    .left ul li:hover{
+        margin: -3px 0px -3px 0px;
+        background-color: #387b4854;
+        border: 2px solid rgb(34, 71, 51);
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+</style>
 <body>
+    <nav>
+        <div class="left">
+        <ul>
+            <li> Home</li>
+            <li> Politics</li>
+            <li><a href="">Economy</a> </li>
+            <li><a href="">Defence</a> </li>
+            <li><a href="">Education</a> </li>
+            <li><a href="">Sports</a> </li>
+            <li><a href="">Entertainment</a> </li>
+            <li><a href="">Tech</a> </li>
+            <li><a href="">Video</a> </li>
+        </ul>
+        </div>
+        <div class="right">
+            <div class="srch">
+                <input type="text" placeholder="Search.." name="search">
+                 
+            </div>
+            <div class="sign-up">
+                <button class="btn" id="btn-1">Subscribe</button>
+               <a href="./pages/sign-in.html"><button class="btn" id="btn-2">Sign-Up</button></a>
+            </div>
+        </div>
+    </nav>
     <script src="./js/script.js"></script>
 </body>
 </html>

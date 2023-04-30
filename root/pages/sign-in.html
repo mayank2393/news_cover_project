@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+<style>
+    *{
+        box-sizing: border-box;
+        color-scheme: dark;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        opacity: 0.8;
+        background: #134E5E;  
+        background: -webkit-linear-gradient(to right, #71B280, #134E5E);  
+        background: linear-gradient(to right, #71B280, #134E5E); 
+} 
+    .container{
+        display: block;
+        width: 494px;
+        height: 400px;
+        margin: 104px auto;
+        background-color: rgba(52, 52, 53, 0.822);
+        border-radius: 52px;
+        color: white;
+        box-shadow: 10px 10px 15px 10px rgb(70, 77, 70);
+    }
+    .heading{
+        width: 225px;
+        margin: auto;
+        font-size: 63px;
+        color: white;
+    }
+    .name{
+        margin-top: 15px;
+    }
+    #input-name{
+        margin-top:15px
+    }
+    
+    input{
+        border-radius: 10px;
+        text-align: left;
+        font-size: 19px;
+        width:351px;
+        display: block;
+        margin: 20px auto;
+        padding: 6px;
+    }
+    input::placeholder{
+        color: white;
+    }
+    .btn-form{
+        width: 266px;
+        margin:8px auto;
+    }
+    button#btn{
+        font-size: 18px;
+        padding:4px 70px;
+        border-radius: 20px;
+    }
+    
+</style>
+</head>
+<body>
+    <form action="#">
+       
+        <div class="container">
+            <h1 class="heading">Sign Up</h1>
+            <input type="text" placeholder="Name" class="name" id="101">
+            <input type="email" name="email" id="102" placeholder="E-mail">
+            <input type="tel" name="mobile_no" id="103" placeholder="Mobile">
+            <input type="password" placeholder="Password">
+    
+       <div class="btn-form"> 
+        <button id="btn">Create Account</button> 
+        </div>
+       </div>
+
+    </form>
+</body>
+</html>
